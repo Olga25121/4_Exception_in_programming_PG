@@ -17,8 +17,10 @@ public class Main {
         Scanner scanner = new Scanner((System.in));
         System.out.println();
         System.out.println("Введите данные в следующем формате: Фамилия Имя Отчество датарождения номертелефона пол (через пробел)");
+        System.out.println();
         String input = scanner.nextLine();
         scanner.close();
+        
 
         String[] fields = input.split(" ");
         if(fields.length != fields_number) {
@@ -65,7 +67,11 @@ public class Main {
 
         }
         }
+      
+ }
 
-    }
+
+        
+      
 
 
